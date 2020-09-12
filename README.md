@@ -4,10 +4,10 @@ Script for mpv that opens the Anilist page for the currently playing (anime) fil
 It does this by extracting/guessing the relevant metadata from the file name (using [guessit](https://github.com/guessit-io/guessit)), searching for it on Anilist, and then opening the page in a new tab on your default browser.
 
 ## Requirements
-You will need Python 3 installed and in your system path, as well as the module ```guessit```:
+You will need Python 3 installed and in your system path, as well as the following libraries: `guessit`, `requests`:
 
 ```bash
-pip install guessit
+pip install guessit requests
 ```
 
 ## Install
